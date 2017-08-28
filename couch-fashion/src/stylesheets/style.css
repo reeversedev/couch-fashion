@@ -1,0 +1,75 @@
+.nav-li {
+    margin-top: -50px;
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+.nav-li li {
+    float: left;
+}
+
+.nav-li a {
+    display: block;
+    color: white!important;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 30px;
+    font-size: 15px;
+}
+
+.navbar {
+    border-color: transparent;
+    background-color: rgba(0, 0, 0, 0.0);
+    height: 90px;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.inner-self {
+    background-image: url('header-background.png');
+    background-repeat: no-repeat;
+    background-position: -10;
+    background-size: cover;
+}
+
+.header-image {
+    height: 70px;
+    margin-left: 40px;
+}
+
+.navbar-header {
+    margin-left: 50px!important;
+}
+
+.below-nav-body {
+    margin-top: 55px;
+    margin-left: 90px;
+}
+
+.blue-head {
+    font-size: 95px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #060629;
+}
+
+.white-head {
+    padding: 0;
+    margin-top: -20px;
+    font-size: 95px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+.lorem {
+    color: white;
+    font-size: 20px;
+    margin-top: 36px;
+    margin-bottom: 60px;
+}
