@@ -15,7 +15,7 @@
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    margin-right: 30px;
+    margin-right: 32px;
     font-size: 15px;
 }
 
@@ -33,7 +33,7 @@
 .inner-self {
     background-image: url('header-background.png');
     background-repeat: no-repeat;
-    background-position: 0 10;
+    background-position: -10px 0px 10px;
     background-size: 100%;
 }
 
@@ -71,4 +71,28 @@
     font-size: 20px;
     margin-top: 36px;
     margin-bottom: 60px;
+}
+.request-quote-heading {
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.white {
+    background-color: white;
+    border-radius: 5px;
+}
+.form-group {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+}
+.white-form {
+    margin-top: 10px;
+}
+.checkbox label {
+    font-size: 15px;
+}
+.form-control {
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
