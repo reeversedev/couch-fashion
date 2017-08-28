@@ -90,9 +90,23 @@
     margin-top: 10px;
 }
 .checkbox label {
-    font-size: 15px;
+    font-size: 18px;
 }
-.form-control {
-    padding-top: 25px;
-    padding-bottom: 25px;
+.form-control{
+    background-color: #F0EBEB;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.btn-crimson {
+    background-color: #C40202;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 45px;
+}
+.btn-crimson:hover {
+    color: white;
 }
