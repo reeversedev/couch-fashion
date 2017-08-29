@@ -98,6 +98,10 @@
     margin-right: 10%;
     width: 33%;
 }
+.checkbox {
+    font-family: Cabin;
+    font-weight: bold;
+}
 
 .checkbox label {
     font-size: 18px;
@@ -202,6 +206,7 @@
 }
 
 #pricing {
+    font-family: Cabin;
     background-color: whitesmoke;
 }
 
@@ -212,8 +217,53 @@
     font-weight: bold;
     color: #060629;
 }
-
+.ribbon {
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    z-index: 1;
+    overflow: hidden;
+    width: 75px;
+    height: 75px;
+    text-align: right;
+}
+.ribbon span {
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    width: 100px;
+    display: block;
+    background: red;
+    background: linear-gradient(red 0%, red 100%);
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 19px; right: -21px;
+  }
+  .ribbon span::before {
+    content: "";
+    position: absolute; left: 0px; top: 100%;
+    z-index: -1;
+    border-left: 3px solid red;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid red;
+  }
+  .ribbon span::after {
+    content: "";
+    position: absolute; right: 0px; top: 100%;
+    z-index: -1;
+    border-left: 3px solid transparent;
+    border-right: 3px solid red;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid red;
+  }
 .box {
+    font-family: Cabin;
     width: 300px;
     background-color: white;
     margin-left: 30px;
@@ -300,6 +350,7 @@
 }
 
 #travelera p {
+    font-family: Cabin;
     font-size: 16px;
     padding-top: 15px;
     padding-left: 20px;
@@ -310,6 +361,7 @@
 }
 
 #travelera-2 p {
+    font-family: Cabin;
     color: #E4002E;
     font-size: 16px;
     padding-top: 15px;
@@ -322,6 +374,8 @@
 }
 
 #view-pictures {
+    font-family: Cabin;
+    font-weight: bold;
     text-decoration: underline;
     font-size: 18px;
     margin-left: 10%;
@@ -347,6 +401,7 @@
 }
 
 #footer-matter {
+    font-family: Cabin;
     margin-top: 5%;
     margin-left: 10%;
 }
@@ -424,6 +479,7 @@ body {
         margin-left: 0;
     }
     .lorem {
+        font-family: Cabin;
         font-size: 12px;
         margin-top: 0;
     }
