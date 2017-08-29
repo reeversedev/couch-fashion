@@ -83,7 +83,7 @@
 .white {
     background-color: white;
     border-radius: 5px;
-    box-shadow: 0px 5px 15px 10px;
+    box-shadow: 2px 35px 90px 12px;
 }
 
 .form-group {
@@ -124,4 +124,45 @@
 }
 .checkbox-form {
     margin-top: -5px;
+}
+.red{
+    color: red;
+}
+.blue {
+    color: #060629;
+}
+#our {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+#services {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+#our-services {
+    margin-top: 40px;
+}
+.polaroid {
+    margin-top: 80px;
+    float: left;
+}
+.polaroid img {
+    height: 120px;
+    display: block;
+    margin-left: 30px;
+}
+.polaroid .container p {
+    margin-top: 35px;
+    padding-left: 10px;
+    padding-right: 60px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.polaroid .container p span {
+    display: block;
+}
+.first-line {
+    padding-left: 10px;
 }
