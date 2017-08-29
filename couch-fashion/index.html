@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="src/stylesheets/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="src/javascripts/styles.js"></script>
 </head>
 
 <body>
@@ -18,11 +19,11 @@
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header col-md-6">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <button type="button" class="navbar-toggle" data-target="#sideNav" onclick="openNav()">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
-      </button>
+        </button>
           <a class="navbar-brand" href="#myPage"><img src="src/resources/header-logo.png" class="header-image"></a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
@@ -34,6 +35,16 @@
             <li><a href="#contact">contact</a></li>
           </ul>
         </div>
+          <div id="sideNav" class="sideNav">
+            <ul>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#gallery">gallery</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+          </div>
       </div>
     </nav>
     <div class="container below-nav-body">
@@ -103,7 +114,7 @@
       </div>
     </div>
   </div>
-    <div class="container-fluid indigo">
+    <div class="container-fluid indigo" id="we-are-in">
       <div class="col-md-6">
           <p>We are in business for over 6 years providing amazing services to client and people love them to the core.
             View our story to know more.</p>      
@@ -211,12 +222,6 @@
               <span class="footer-text">| 2016 |</span>
               <span class="footer-text"> Designed with pure css by <a id="prateek-gogia" href="https://github.com/reeversedev" target="_blank">Prateek Gogia</a></span>
               <img src="src/resources/footer-logo.png" class="pull-right" id="footer-logo">
-            </div>
-            <div class="col-md-6">
-              <div>
-                  
-              </div>
-              
             </div>
       </div>
   </div>

@@ -122,38 +122,47 @@
 .btn-crimson:hover {
     color: white;
 }
+
 .checkbox-form {
     margin-top: -5px;
 }
-.red{
+
+.red {
     color: red;
 }
+
 .blue {
     color: #060629;
 }
+
 #our {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 50px;
 }
+
 #services {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 50px;
 }
+
 #our-services {
     margin-top: 40px;
 }
+
 .polaroid {
     margin-top: 80px;
     float: left;
     margin-bottom: 20px;
 }
+
 .polaroid img {
     height: 120px;
     display: block;
     margin-left: 30px;
 }
+
 .polaroid .container p {
     margin-top: 35px;
     padding-left: 10px;
@@ -161,22 +170,27 @@
     font-weight: bold;
     font-size: 16px;
 }
+
 .polaroid .container p span {
     display: block;
 }
+
 .first-line {
     padding-left: 10px;
 }
+
 .indigo {
     background-color: #060629;
-    color: white; 
+    color: white;
 }
+
 .indigo p {
     margin-top: 30px;
     padding-left: 80px;
     margin-bottom: 30px;
     font-size: 16px;
 }
+
 .story-button {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -186,9 +200,11 @@
     font-size: 18px;
     margin-left: 27%;
 }
+
 #pricing {
     background-color: whitesmoke;
 }
+
 #pricing h2 {
     padding-top: 40px;
     text-transform: uppercase;
@@ -196,125 +212,261 @@
     font-weight: bold;
     color: #060629;
 }
+
 .box {
     width: 300px;
     background-color: white;
     margin-left: 30px;
     color: black;
 }
+
 .box h4 {
     padding-top: 30px;
 }
+
 .box h1 {
     text-transform: uppercase;
     color: #DC0430;
     font-weight: bold;
 }
+
 .box ul {
     padding: 0;
     list-style: none;
     font-size: 16px;
 }
+
 #try-button {
     margin-top: 5%;
     padding-left: 80px;
     padding-right: 80px;
     margin-left: 7%;
 }
+
 #boxes {
     margin-left: 10%;
 }
+
 .indigo:hover {
     color: white;
 }
+
 .business-button {
     background-color: #C40202;
-    color: white;    
+    color: white;
 }
+
 .business-button:hover {
     color: white;
 }
+
 .rectangle {
     width: 350px;
     margin-left: 20%;
     text-align: left;
     height: 110px;
 }
+
 .gray {
-background-color: #F1ECEC;
+    background-color: #F1ECEC;
 }
+
 .img-dj {
     transform: translate(300px, -105px);
     height: 100px;
 }
+
 .img-dj-2 {
     transform: translate(300px, -85px);
     height: 100px;
 }
+
 .dj-bravo {
     padding-left: 20px;
     font-weight: bold;
     font-size: 18px;
 }
+
 .bold {
     font-weight: bold;
 }
+
 .uppercase {
     text-transform: uppercase;
 }
+
 #travelera {
     margin-top: 5%;
 }
+
 #travelera p {
     font-size: 16px;
     padding-top: 15px;
     padding-left: 20px;
 }
+
 #travelera-2 {
     margin-top: 5%;
 }
+
 #travelera-2 p {
     color: #E4002E;
     font-size: 16px;
     padding-top: 15px;
     padding-left: 20px;
 }
+
 #gallery {
     margin-top: 5%;
     margin-left: 25%;
 }
+
 #view-pictures {
     text-decoration: underline;
     font-size: 18px;
     margin-left: 10%;
     margin-top: 5%;
 }
+
 #view-pictures a {
     color: black;
 }
+
 #two-sections {
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
 #gallery-head {
     color: #dc0430;
 }
+
 .footer-rectangle {
     height: 180px;
     background-color: #060629;
 }
+
 #footer-matter {
     margin-top: 5%;
     margin-left: 10%;
 }
+
 .footer-text {
     color: white;
     font-size: 16px;
 }
+
 #prateek-gogia {
     color: #dc0430;
     font-weight: bold;
 }
+
 #footer-logo {
     margin-top: -2%;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.sideNav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    background-image: url('header-background.png');
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.8s;
+}
+.sideNav li {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.sideNav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+}
+
+.sideNav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Media Queries come here */
+
+@media screen and (max-width:480px) {
+    .inner-self {
+        background-size: 100%;
+    }
+    .header-image {
+        height: 50px;
+        margin-top: -30px;
+    }
+    .blue-head {
+        font-size: 30px;
+    }
+    .white-head {
+        font-size: 30px;
+    }
+    .below-nav-body {
+        margin-top: -10%;
+        margin-left: 0;
+    }
+    .lorem {
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .white-form {
+        margin-top: 0;
+        width: 80%;
+    }
+    #our-services {
+        margin-top: 150%;
+        margin-left: 5%;
+    }
+    #promotional-icons {
+        margin-left: 20%;
+    }
+    #we-are-in {
+        margin-left: -15%;
+    }
+    .story-button {
+        margin-left: 22%;
+    }
+    #boxes {
+        margin-left: 5%;
+    }
+    #travelera {
+        margin-left: 0;
+    }
+    #travelera-2 {
+        margin-left: 0;
+    }
+    #gallery {
+        margin-left: 15%;
+    }
+    #footer-matter {
+        margin-left: 0;
+    }
+    #footer-logo {
+        float: none;
+        margin-top: 10%;
+        margin-right: 50%;
+    }
+    .header-image {
+        height: 30px;
+        margin-left: -30%;
+        float: 0;
+    }
 }
