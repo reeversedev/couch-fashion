@@ -147,6 +147,7 @@
 .polaroid {
     margin-top: 80px;
     float: left;
+    margin-bottom: 20px;
 }
 .polaroid img {
     height: 120px;
@@ -165,4 +166,23 @@
 }
 .first-line {
     padding-left: 10px;
+}
+.indigo {
+    background-color: #060629;
+    color: white; 
+}
+.indigo p {
+    margin-top: 30px;
+    padding-left: 80px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+.story-button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 90px;
+    margin-top: 30px;
+    font-size: 18px;
+    margin-left: 27%;
 }
