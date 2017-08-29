@@ -234,3 +234,48 @@
 .business-button:hover {
     color: white;
 }
+.rectangle {
+    width: 350px;
+    margin-left: 20%;
+    text-align: left;
+    height: 110px;
+}
+.gray {
+background-color: #F1ECEC;
+}
+.img-dj {
+    transform: translate(300px, -105px);
+    height: 100px;
+}
+.img-dj-2 {
+    transform: translate(300px, -85px);
+    height: 100px;
+}
+.dj-bravo {
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.bold {
+    font-weight: bold;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+#travelera {
+    margin-top: 5%;
+}
+#travelera p {
+    font-size: 16px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+#travelera-2 {
+    margin-top: 5%;
+}
+#travelera-2 p {
+    color: #E4002E;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
