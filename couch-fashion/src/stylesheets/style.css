@@ -279,3 +279,42 @@ background-color: #F1ECEC;
     padding-top: 15px;
     padding-left: 20px;
 }
+#gallery {
+    margin-top: 5%;
+    margin-left: 25%;
+}
+#view-pictures {
+    text-decoration: underline;
+    font-size: 18px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#view-pictures a {
+    color: black;
+}
+#two-sections {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#gallery-head {
+    color: #dc0430;
+}
+.footer-rectangle {
+    height: 180px;
+    background-color: #060629;
+}
+#footer-matter {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.footer-text {
+    color: white;
+    font-size: 16px;
+}
+#prateek-gogia {
+    color: #dc0430;
+    font-weight: bold;
+}
+#footer-logo {
+    margin-top: -2%;
+}
